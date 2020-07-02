@@ -23,6 +23,7 @@ let InputTextForm = ({generateText}) => {
           <h2>Input text:</h2>
           <textarea value={inputText} onChange={handleChange}/>
         </label>
+        <br/>
         <button className="submitButton" onClick={handleSubmit}>Generate</button>
       </form>
     );
